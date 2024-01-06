@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/app_bar_layout_home"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/home_toolbar"
+          android:layout_width="match_parent"
+          android:background="@color/color_2"
+          android:layout_height="50dp">
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="27sp"
+                 android:text=" Islamzada "
+                 android:textColor="@color/white"
+                 android:fontFamily="@font/instagram"
+                 android:layout_alignParentLeft="true"/>
+
+             <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:src="@drawable/send_icon"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerInParent="true"
+                 android:layout_marginEnd="20dp"/>
+
+         </RelativeLayout>
+
+      </androidx.appcompat.widget.Toolbar>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar_layout_home">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
