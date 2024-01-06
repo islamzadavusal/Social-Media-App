@@ -1,36 +1,27 @@
 {
   "project_info": {
-    "project_number": "1026530952134",
-    "project_id": "islamzadaapp",
-    "storage_bucket": "islamzadaapp.appspot.com"
+    "project_number": "838508977969",
+    "firebase_url": "https://snapbeat-xx-default-rtdb.firebaseio.com",
+    "project_id": "snapbeat-xx",
+    "storage_bucket": "snapbeat-xx.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1026530952134:android:896c92115f692c5b59a8c7",
+        "mobilesdk_app_id": "1:838508977969:android:37573ebb6aa2dbdae61a10",
         "android_client_info": {
           "package_name": "com.islamzada.socialmediaapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1026530952134-mbtic79f6urniknf5i6bg5tkfmetnh2p.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCW3JOok4a-E1ttmjZc92guAW5RePhWIgE"
+          "current_key": "AIzaSyAUGxKhSC63C28z6IRtUAMcuhgJKtvs2fg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1026530952134-mbtic79f6urniknf5i6bg5tkfmetnh2p.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

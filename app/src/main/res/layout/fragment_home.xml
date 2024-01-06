@@ -23,11 +23,11 @@
              <TextView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:textSize="27sp"
-                 android:text=" Islamzada "
-                 android:textColor="@color/white"
+                 android:layout_alignParentLeft="true"
                  android:fontFamily="@font/instagram"
-                 android:layout_alignParentLeft="true"/>
+                 android:text="SnapBeat"
+                 android:textColor="@color/white"
+                 android:textSize="27sp" />
 
              <ImageView
                  android:layout_width="30dp"
